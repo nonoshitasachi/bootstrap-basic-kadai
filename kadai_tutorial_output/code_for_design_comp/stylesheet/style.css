@@ -1,9 +1,4 @@
 /* ----------------------------------------------- 共通 */
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   color: #000000;
   font-family: "Noto Sans JP", sans-serif;
@@ -232,7 +227,7 @@ p {
 #footer {
   background-color: #fafafa;
 }
-/* position:　absoluteで下からの距離で固定 */
+/* position: absoluteで下からの距離で固定 */
 .copy_right {
   font-size: 14px;
 
@@ -269,7 +264,7 @@ p {
 }
 
 /* restaurant_info直下の子要素imgタグ全てに適用される */
-.restaurant_info　img {
+.restaurant_info img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -300,10 +295,8 @@ p {
   }
 
   .copy_right > p,
-  img {
-    margin-right: 1rem;
+  .copy_right > img {
+    margin: 0 1rem 0 0;
     font-size: 14px;
-    margin: 0;
-    line-height: 35px;
   }
 }
